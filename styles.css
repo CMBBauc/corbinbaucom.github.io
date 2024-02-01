@@ -31,7 +31,19 @@ body {
     border-radius: 10px;
 }
 
-.basic-info-section > h1 {
+.basic-info-section > h1, p {
     text-align: center;
 }
+
+.basic-info-section > p {
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+.basic-info-section > img {
+    align-self: center;
+    border-radius: 20px;
+}
+
+
 
