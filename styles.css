@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.navigation-ul {
+    padding: 20px; /* adjusts space in navbar*/
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation-item {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.basic-info-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.basic-info-section > h1 {
+    text-align: center;
+}
+
